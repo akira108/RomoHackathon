@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E948ACBE197227690076397C /* RHAlarmSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E948ACBD197227690076397C /* RHAlarmSettingViewController.m */; };
+		E948ACC119723FA70076397C /* RHTwitter.m in Sources */ = {isa = PBXBuildFile; fileRef = E948ACC019723FA70076397C /* RHTwitter.m */; };
+		E948ACC319723FB50076397C /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E948ACC219723FB50076397C /* Social.framework */; };
+		E948ACC519723FEB0076397C /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E948ACC419723FEB0076397C /* Accounts.framework */; };
+		E948ACC719724B9B0076397C /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E948ACC619724B9B0076397C /* CoreImage.framework */; };
+		E948ACC919724C090076397C /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E948ACC819724C090076397C /* ImageIO.framework */; };
+		E948ACCC19724C210076397C /* RHFaceDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = E948ACCB19724C210076397C /* RHFaceDetector.m */; };
+		E948ACCE19724CEC0076397C /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E948ACCD19724CEC0076397C /* AssetsLibrary.framework */; };
+		E948ACD019724D640076397C /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E948ACCF19724D640076397C /* CoreMedia.framework */; };
+		E9EFDA8919725ED500F82BD3 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9EFDA8819725ED500F82BD3 /* Accelerate.framework */; };
+		E9EFDA8D1972600A00F82BD3 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9EFDA8C1972600A00F82BD3 /* opencv2.framework */; };
+		E9EFDA901972603A00F82BD3 /* RHColorDetector.mm in Sources */ = {isa = PBXBuildFile; fileRef = E9EFDA8F1972603A00F82BD3 /* RHColorDetector.mm */; };
+		E9F9E651197214170038A82A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F9E650197214170038A82A /* Foundation.framework */; };
+		E9F9E653197214170038A82A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F9E652197214170038A82A /* CoreGraphics.framework */; };
+		E9F9E655197214170038A82A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F9E654197214170038A82A /* UIKit.framework */; };
+		E9F9E65B197214170038A82A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9F9E659197214170038A82A /* InfoPlist.strings */; };
+		E9F9E65D197214170038A82A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F9E65C197214170038A82A /* main.m */; };
+		E9F9E661197214170038A82A /* RHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F9E660197214170038A82A /* RHAppDelegate.m */; };
+		E9F9E664197214170038A82A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9F9E662197214170038A82A /* Main.storyboard */; };
+		E9F9E667197214170038A82A /* RHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F9E666197214170038A82A /* RHViewController.m */; };
+		E9F9E669197214170038A82A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9F9E668197214170038A82A /* Images.xcassets */; };
+		E9F9E670197214180038A82A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F9E66F197214180038A82A /* XCTest.framework */; };
+		E9F9E671197214180038A82A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F9E650197214170038A82A /* Foundation.framework */; };
+		E9F9E672197214180038A82A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F9E654197214170038A82A /* UIKit.framework */; };
+		E9F9E67A197214180038A82A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9F9E678197214180038A82A /* InfoPlist.strings */; };
+		E9F9E67C197214180038A82A /* RomoHackathonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F9E67B197214180038A82A /* RomoHackathonTests.m */; };
+		E9F9E688197214510038A82A /* RMCharacter.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E9F9E685197214510038A82A /* RMCharacter.bundle */; };
+		E9F9E689197214510038A82A /* RMCharacter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F9E686197214510038A82A /* RMCharacter.framework */; };
+		E9F9E68A197214510038A82A /* RMCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F9E687197214510038A82A /* RMCore.framework */; };
+		E9F9E68C197214630038A82A /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F9E68B197214630038A82A /* CoreMotion.framework */; };
+		E9F9E68E1972146C0038A82A /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F9E68D1972146C0038A82A /* ExternalAccessory.framework */; };
+		E9F9E690197214750038A82A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F9E68F197214750038A82A /* AVFoundation.framework */; };
+		E9F9E6921972147A0038A82A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F9E6911972147A0038A82A /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9F9E673197214180038A82A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9F9E645197214170038A82A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9F9E64C197214170038A82A;
+			remoteInfo = RomoHackathon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E948ACBC197227690076397C /* RHAlarmSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHAlarmSettingViewController.h; sourceTree = "<group>"; };
+		E948ACBD197227690076397C /* RHAlarmSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHAlarmSettingViewController.m; sourceTree = "<group>"; };
+		E948ACBF19723FA70076397C /* RHTwitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHTwitter.h; sourceTree = "<group>"; };
+		E948ACC019723FA70076397C /* RHTwitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHTwitter.m; sourceTree = "<group>"; };
+		E948ACC219723FB50076397C /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		E948ACC419723FEB0076397C /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		E948ACC619724B9B0076397C /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		E948ACC819724C090076397C /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		E948ACCA19724C210076397C /* RHFaceDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHFaceDetector.h; sourceTree = "<group>"; };
+		E948ACCB19724C210076397C /* RHFaceDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHFaceDetector.m; sourceTree = "<group>"; };
+		E948ACCD19724CEC0076397C /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		E948ACCF19724D640076397C /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		E9EFDA8819725ED500F82BD3 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		E9EFDA8C1972600A00F82BD3 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		E9EFDA8E1972603A00F82BD3 /* RHColorDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHColorDetector.h; sourceTree = "<group>"; };
+		E9EFDA8F1972603A00F82BD3 /* RHColorDetector.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RHColorDetector.mm; sourceTree = "<group>"; };
+		E9F9E64D197214170038A82A /* RomoHackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RomoHackathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F9E650197214170038A82A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E9F9E652197214170038A82A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E9F9E654197214170038A82A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E9F9E658197214170038A82A /* RomoHackathon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RomoHackathon-Info.plist"; sourceTree = "<group>"; };
+		E9F9E65A197214170038A82A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E9F9E65C197214170038A82A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9F9E65E197214170038A82A /* RomoHackathon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RomoHackathon-Prefix.pch"; sourceTree = "<group>"; };
+		E9F9E65F197214170038A82A /* RHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHAppDelegate.h; sourceTree = "<group>"; };
+		E9F9E660197214170038A82A /* RHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHAppDelegate.m; sourceTree = "<group>"; };
+		E9F9E663197214170038A82A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9F9E665197214170038A82A /* RHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHViewController.h; sourceTree = "<group>"; };
+		E9F9E666197214170038A82A /* RHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHViewController.m; sourceTree = "<group>"; };
+		E9F9E668197214170038A82A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E9F9E66E197214180038A82A /* RomoHackathonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RomoHackathonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F9E66F197214180038A82A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E9F9E677197214180038A82A /* RomoHackathonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RomoHackathonTests-Info.plist"; sourceTree = "<group>"; };
+		E9F9E679197214180038A82A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E9F9E67B197214180038A82A /* RomoHackathonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RomoHackathonTests.m; sourceTree = "<group>"; };
+		E9F9E685197214510038A82A /* RMCharacter.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RMCharacter.bundle; sourceTree = "<group>"; };
+		E9F9E686197214510038A82A /* RMCharacter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RMCharacter.framework; sourceTree = "<group>"; };
+		E9F9E687197214510038A82A /* RMCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RMCore.framework; sourceTree = "<group>"; };
+		E9F9E68B197214630038A82A /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		E9F9E68D1972146C0038A82A /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		E9F9E68F197214750038A82A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E9F9E6911972147A0038A82A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9F9E64A197214170038A82A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9EFDA8919725ED500F82BD3 /* Accelerate.framework in Frameworks */,
+				E948ACD019724D640076397C /* CoreMedia.framework in Frameworks */,
+				E948ACCE19724CEC0076397C /* AssetsLibrary.framework in Frameworks */,
+				E948ACC919724C090076397C /* ImageIO.framework in Frameworks */,
+				E948ACC719724B9B0076397C /* CoreImage.framework in Frameworks */,
+				E9EFDA8D1972600A00F82BD3 /* opencv2.framework in Frameworks */,
+				E948ACC519723FEB0076397C /* Accounts.framework in Frameworks */,
+				E948ACC319723FB50076397C /* Social.framework in Frameworks */,
+				E9F9E6921972147A0038A82A /* QuartzCore.framework in Frameworks */,
+				E9F9E690197214750038A82A /* AVFoundation.framework in Frameworks */,
+				E9F9E68E1972146C0038A82A /* ExternalAccessory.framework in Frameworks */,
+				E9F9E68C197214630038A82A /* CoreMotion.framework in Frameworks */,
+				E9F9E653197214170038A82A /* CoreGraphics.framework in Frameworks */,
+				E9F9E68A197214510038A82A /* RMCore.framework in Frameworks */,
+				E9F9E689197214510038A82A /* RMCharacter.framework in Frameworks */,
+				E9F9E655197214170038A82A /* UIKit.framework in Frameworks */,
+				E9F9E651197214170038A82A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F9E66B197214180038A82A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F9E670197214180038A82A /* XCTest.framework in Frameworks */,
+				E9F9E672197214180038A82A /* UIKit.framework in Frameworks */,
+				E9F9E671197214180038A82A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9F9E644197214170038A82A = {
+			isa = PBXGroup;
+			children = (
+				E9F9E656197214170038A82A /* RomoHackathon */,
+				E9F9E675197214180038A82A /* RomoHackathonTests */,
+				E9F9E64F197214170038A82A /* Frameworks */,
+				E9F9E64E197214170038A82A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9F9E64E197214170038A82A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9F9E64D197214170038A82A /* RomoHackathon.app */,
+				E9F9E66E197214180038A82A /* RomoHackathonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9F9E64F197214170038A82A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9EFDA8C1972600A00F82BD3 /* opencv2.framework */,
+				E9EFDA8819725ED500F82BD3 /* Accelerate.framework */,
+				E948ACCF19724D640076397C /* CoreMedia.framework */,
+				E948ACCD19724CEC0076397C /* AssetsLibrary.framework */,
+				E948ACC819724C090076397C /* ImageIO.framework */,
+				E948ACC619724B9B0076397C /* CoreImage.framework */,
+				E948ACC419723FEB0076397C /* Accounts.framework */,
+				E948ACC219723FB50076397C /* Social.framework */,
+				E9F9E6911972147A0038A82A /* QuartzCore.framework */,
+				E9F9E68F197214750038A82A /* AVFoundation.framework */,
+				E9F9E68D1972146C0038A82A /* ExternalAccessory.framework */,
+				E9F9E68B197214630038A82A /* CoreMotion.framework */,
+				E9F9E685197214510038A82A /* RMCharacter.bundle */,
+				E9F9E686197214510038A82A /* RMCharacter.framework */,
+				E9F9E687197214510038A82A /* RMCore.framework */,
+				E9F9E650197214170038A82A /* Foundation.framework */,
+				E9F9E652197214170038A82A /* CoreGraphics.framework */,
+				E9F9E654197214170038A82A /* UIKit.framework */,
+				E9F9E66F197214180038A82A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9F9E656197214170038A82A /* RomoHackathon */ = {
+			isa = PBXGroup;
+			children = (
+				E9F9E65F197214170038A82A /* RHAppDelegate.h */,
+				E9F9E660197214170038A82A /* RHAppDelegate.m */,
+				E9F9E662197214170038A82A /* Main.storyboard */,
+				E948ACBC197227690076397C /* RHAlarmSettingViewController.h */,
+				E948ACBD197227690076397C /* RHAlarmSettingViewController.m */,
+				E9F9E665197214170038A82A /* RHViewController.h */,
+				E9F9E666197214170038A82A /* RHViewController.m */,
+				E948ACBF19723FA70076397C /* RHTwitter.h */,
+				E948ACC019723FA70076397C /* RHTwitter.m */,
+				E948ACCA19724C210076397C /* RHFaceDetector.h */,
+				E948ACCB19724C210076397C /* RHFaceDetector.m */,
+				E9EFDA8E1972603A00F82BD3 /* RHColorDetector.h */,
+				E9EFDA8F1972603A00F82BD3 /* RHColorDetector.mm */,
+				E9F9E668197214170038A82A /* Images.xcassets */,
+				E9F9E657197214170038A82A /* Supporting Files */,
+			);
+			path = RomoHackathon;
+			sourceTree = "<group>";
+		};
+		E9F9E657197214170038A82A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9F9E658197214170038A82A /* RomoHackathon-Info.plist */,
+				E9F9E659197214170038A82A /* InfoPlist.strings */,
+				E9F9E65C197214170038A82A /* main.m */,
+				E9F9E65E197214170038A82A /* RomoHackathon-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E9F9E675197214180038A82A /* RomoHackathonTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9F9E67B197214180038A82A /* RomoHackathonTests.m */,
+				E9F9E676197214180038A82A /* Supporting Files */,
+			);
+			path = RomoHackathonTests;
+			sourceTree = "<group>";
+		};
+		E9F9E676197214180038A82A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9F9E677197214180038A82A /* RomoHackathonTests-Info.plist */,
+				E9F9E678197214180038A82A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9F9E64C197214170038A82A /* RomoHackathon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9F9E67F197214180038A82A /* Build configuration list for PBXNativeTarget "RomoHackathon" */;
+			buildPhases = (
+				E9F9E649197214170038A82A /* Sources */,
+				E9F9E64A197214170038A82A /* Frameworks */,
+				E9F9E64B197214170038A82A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RomoHackathon;
+			productName = RomoHackathon;
+			productReference = E9F9E64D197214170038A82A /* RomoHackathon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9F9E66D197214180038A82A /* RomoHackathonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9F9E682197214180038A82A /* Build configuration list for PBXNativeTarget "RomoHackathonTests" */;
+			buildPhases = (
+				E9F9E66A197214180038A82A /* Sources */,
+				E9F9E66B197214180038A82A /* Frameworks */,
+				E9F9E66C197214180038A82A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9F9E674197214180038A82A /* PBXTargetDependency */,
+			);
+			name = RomoHackathonTests;
+			productName = RomoHackathonTests;
+			productReference = E9F9E66E197214180038A82A /* RomoHackathonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9F9E645197214170038A82A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RH;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = akira108;
+				TargetAttributes = {
+					E9F9E66D197214180038A82A = {
+						TestTargetID = E9F9E64C197214170038A82A;
+					};
+				};
+			};
+			buildConfigurationList = E9F9E648197214170038A82A /* Build configuration list for PBXProject "RomoHackathon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9F9E644197214170038A82A;
+			productRefGroup = E9F9E64E197214170038A82A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9F9E64C197214170038A82A /* RomoHackathon */,
+				E9F9E66D197214180038A82A /* RomoHackathonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9F9E64B197214170038A82A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F9E669197214170038A82A /* Images.xcassets in Resources */,
+				E9F9E65B197214170038A82A /* InfoPlist.strings in Resources */,
+				E9F9E688197214510038A82A /* RMCharacter.bundle in Resources */,
+				E9F9E664197214170038A82A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F9E66C197214180038A82A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F9E67A197214180038A82A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9F9E649197214170038A82A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E948ACCC19724C210076397C /* RHFaceDetector.m in Sources */,
+				E9F9E661197214170038A82A /* RHAppDelegate.m in Sources */,
+				E948ACBE197227690076397C /* RHAlarmSettingViewController.m in Sources */,
+				E9EFDA901972603A00F82BD3 /* RHColorDetector.mm in Sources */,
+				E9F9E65D197214170038A82A /* main.m in Sources */,
+				E948ACC119723FA70076397C /* RHTwitter.m in Sources */,
+				E9F9E667197214170038A82A /* RHViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F9E66A197214180038A82A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F9E67C197214180038A82A /* RomoHackathonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9F9E674197214180038A82A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9F9E64C197214170038A82A /* RomoHackathon */;
+			targetProxy = E9F9E673197214180038A82A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E9F9E659197214170038A82A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9F9E65A197214170038A82A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E9F9E662197214170038A82A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9F9E663197214170038A82A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E9F9E678197214180038A82A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9F9E679197214180038A82A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9F9E67D197214180038A82A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E9F9E67E197214180038A82A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9F9E680197214180038A82A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RomoHackathon/RomoHackathon-Prefix.pch";
+				INFOPLIST_FILE = "RomoHackathon/RomoHackathon-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-lz",
+					"-lc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E9F9E681197214180038A82A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RomoHackathon/RomoHackathon-Prefix.pch";
+				INFOPLIST_FILE = "RomoHackathon/RomoHackathon-Info.plist";
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-lz",
+					"-lc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E9F9E683197214180038A82A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RomoHackathon.app/RomoHackathon";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RomoHackathon/RomoHackathon-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RomoHackathonTests/RomoHackathonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E9F9E684197214180038A82A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RomoHackathon.app/RomoHackathon";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RomoHackathon/RomoHackathon-Prefix.pch";
+				INFOPLIST_FILE = "RomoHackathonTests/RomoHackathonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9F9E648197214170038A82A /* Build configuration list for PBXProject "RomoHackathon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F9E67D197214180038A82A /* Debug */,
+				E9F9E67E197214180038A82A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9F9E67F197214180038A82A /* Build configuration list for PBXNativeTarget "RomoHackathon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F9E680197214180038A82A /* Debug */,
+				E9F9E681197214180038A82A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9F9E682197214180038A82A /* Build configuration list for PBXNativeTarget "RomoHackathonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F9E683197214180038A82A /* Debug */,
+				E9F9E684197214180038A82A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9F9E645197214170038A82A /* Project object */;
+}
